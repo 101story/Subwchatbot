@@ -23,8 +23,8 @@ class KakaoController < ApplicationController
       parse = Parser::Movie.new
       msg = @@message.getMessage(parse.naver)
     else
-      url = 'http://mblogthumb2.phinf.naver.net/MjAxNzA0MTBfMjg0/MDAxNDkxODMzMDcxNDIy.yKTvXOPhi1L5uu0LQhdIyuiMMz-nC0Wjw7nCs6PjQ6og.w7uA6g6gD-2TgJTyDjHuOvh_IRWqcbf5_q5qSzBVp4wg.JPEG.lastkycool/P1090483-0.jpg?type=w800'
-      msg = @@message.getPicMessage("추천", url)
+      url = 'http://subway.co.kr/sandwichList'
+      msg = @@message.getMessage("추천", url)
     end
 
     result = {
