@@ -24,7 +24,7 @@ class KakaoController < ApplicationController
       msg = @@message.getMessage(parse.naver)
     else
       url = '서브웨이 홈페이지 http://subway.co.kr/sandwichList'
-      msg = @@message.getMessage("추천", url)
+      msg = @@message.getMessage(url)
     end
 
     result = {
