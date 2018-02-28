@@ -23,7 +23,7 @@ class KakaoController < ApplicationController
       parse = Parser::Movie.new
       msg = @@message.getMessage(parse.naver)
     else
-      url = 'http://subway.co.kr/sandwichList'
+      url = '서브웨이 홈페이지 http://subway.co.kr/sandwichList'
       msg = @@message.getMessage("추천", url)
     end
 

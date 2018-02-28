@@ -1,0 +1,12 @@
+
+heroku 이용하기 
+
+	https://devcenter.heroku.com/articles/git#prerequisites-installing-git-and-the-heroku-cli
+
+	root@ef4d295eb2a4:/mulFinal/gitRubyProj/subwkakao# heroku create
+	https://warm-earth-34119.herokuapp.com/ | https://git.heroku.com/warm-earth-34119.git
+	root@ef4d295eb2a4:/mulFinal/gitRubyProj/subwkakao# 
+
+	root@ef4d295eb2a4:/mulFinal/gitRubyProj/subwkakao# git push heroku master
+
+
