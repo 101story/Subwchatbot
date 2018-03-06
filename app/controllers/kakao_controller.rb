@@ -19,7 +19,9 @@ class KakaoController < ApplicationController
     if user_msg == "고양이"
       parse = Parser::Animal.new
       msg = @@message.getPicMessage("냐옹냐옹", parse.cat)
-    elsif user_msg == "영화"
+    elsif user_msg == "강아지"
+      parse = Parser::Animal.new
+      msg = @@message.getPicMessage("멍멍", parse.dog)
       parse = Parser::Movie.new
       msg = @@message.getMessage(parse.naver)
     else
