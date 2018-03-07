@@ -22,8 +22,6 @@ class KakaoController < ApplicationController
     elsif user_msg == "강아지"
       parse = Parser::Animal.new
       msg = @@message.getPicMessage("멍멍", parse.dog)
-      parse = Parser::Movie.new
-      msg = @@message.getMessage(parse.naver)
     else
       url = '서브웨이 홈페이지 http://m.subway.co.kr/sandwichList'
       msg = @@message.getMessage(url)
